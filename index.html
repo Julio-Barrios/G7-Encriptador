@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <img class="logo" src="/img/Logo.svg" alt="Alura logo">
+    </header>
+        <main>
+            <section class="seccion__Uno">
+                <div class="contenedor__cajaTexto">
+                    <textarea class="caja__Texto" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div class="alerta">
+                    <img src="/img/Alerta.svg" alt="icono de exclamacion">
+                    <p>Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="contenedor__Botones">
+                    <input type="button", class="boton__Encriptar" value="Encriptar" >
+                    <input type="button", class="boton__Desencriptar" value="Desencriptar" >
+                </div>
+            </section>
+            <section class="seccion__Dos">
+                <div class="contenedor__imagen">
+                    <img src="/img/Muñeco.svg" alt="imagen animacion busqueda">
+                </div>
+                <div class="contenedor__Parrafo">
+                    <h3>Ningun mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <input type="button" class="boton__Copiar" value="Copiar">
+                <p class="texto__Resultado"></p>
+                </div>
+                <div class="contenedor__Resultado">
+                    
+                </div>
+            </section>
+        </main>
+        <footer>
+            <P>Desarrollado por: Julio Barrios</P>
+        </footer>
+        <script src="apps.js"></script>
+</body>
+</html>
